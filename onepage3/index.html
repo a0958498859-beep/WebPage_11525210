@@ -1,50 +1,2356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="藍天咖啡，為手沖咖啡愛好者挑選當季精品咖啡豆，讓每一杯都清澈、明亮、值得細品。">
-  <title>藍天咖啡｜讓風味，慢慢抵達</title>
+  <title>搖搖薯條 SHAKE SHAKE FRIES｜酥脆金黃，一搖就上癮！</title>
+  <meta name="description" content="搖搖薯條 SHAKE SHAKE FRIES 官方網站。嚴選特級頂級馬鈴薯，現點現炸金黃酥脆！搭配獨家6款秘製搖搖風味粉，每一口都咔滋作響，搖出專屬美味！">
+  <meta name="keywords" content="搖搖薯條, 薯條, 馬鈴薯, 現炸薯條, 搖搖粉, 酥脆, 點心, 美食">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+
   <style>
-    :root{--navy:#062742;--blue:#0c5b95;--sky:#75c6e8;--mist:#eaf5f7;--cream:#fbfaf6;--ink:#122534;--muted:#607482;--line:#d7e4e8;--sand:#e5b66b;--shadow:0 18px 50px rgba(6,39,66,.13)}
-    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:"Noto Sans TC",sans-serif;font-size:16px;line-height:1.7} a{color:inherit;text-decoration:none} button,input{font:inherit} button{cursor:pointer} .wrap{width:min(1120px,calc(100% - 48px));margin:auto} :focus-visible{outline:3px solid var(--sky);outline-offset:4px}
-    header{position:absolute;z-index:10;top:0;left:0;width:100%;border-bottom:1px solid rgba(255,255,255,.28)} nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:flex;align-items:center;gap:10px;color:#fff;line-height:1.2}.brand-mark{display:grid;place-items:center;width:29px;height:29px;border:1px solid var(--sky);border-radius:50%;font-family:"Playfair Display",serif;color:var(--sky);font-size:18px}.brand strong{font-size:14px;letter-spacing:.08em}.brand small{display:block;font-size:9px;letter-spacing:.13em;color:rgba(255,255,255,.75)}.nav-links{display:flex;align-items:center;gap:27px;list-style:none;margin:0;padding:0;color:#fff;font-size:13px}.nav-links a:not(.nav-cta){position:relative}.nav-links a:not(.nav-cta):after{content:"";position:absolute;right:0;bottom:-7px;width:0;height:1px;background:var(--sky);transition:width .25s}.nav-links a:not(.nav-cta):hover:after{width:100%;left:0}.nav-cta{border:1px solid rgba(255,255,255,.8);padding:6px 13px;transition:.25s}.nav-cta:hover{background:#fff;color:var(--navy)}.menu-toggle{display:none;border:0;background:transparent;color:#fff;font-size:25px}
-    .hero{min-height:704px;padding:122px 0 72px;background:radial-gradient(circle at 86% 28%,#2379ac 0,rgba(35,121,172,.18) 25%,transparent 47%),var(--navy);color:#fff;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;right:-145px;bottom:-200px;width:610px;height:610px;border:1px solid rgba(117,198,232,.16);border-radius:50%;box-shadow:0 0 0 55px rgba(117,198,232,.05),0 0 0 110px rgba(117,198,232,.035)}.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:45px;min-height:510px;position:relative;z-index:1}.eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.18em}.eyebrow:before{content:"";width:28px;height:1px;background:currentColor}.hero .eyebrow{color:var(--sky)}h1,h2,h3,p{margin-top:0}.hero h1{max-width:650px;margin-bottom:23px;font-family:"Noto Serif TC",serif;font-size:clamp(42px,5.5vw,68px);line-height:1.22;letter-spacing:.04em}.sky-text{color:var(--sky)}.hero-lede{max-width:535px;color:rgba(255,255,255,.78);margin-bottom:30px}.hero-actions{display:flex;flex-wrap:wrap;gap:13px}.button{display:inline-flex;justify-content:center;align-items:center;min-height:50px;padding:10px 23px;border:1px solid transparent;border-radius:2px;font-weight:700;transition:transform .2s,background .2s,color .2s}.button:hover{transform:translateY(-2px)}.button.primary{background:var(--sand);color:var(--navy)}.button.secondary{border-color:rgba(255,255,255,.82);color:#fff}.button.secondary:hover{background:#fff;color:var(--navy)}.origin{margin:29px 0 0;color:rgba(255,255,255,.58);font-size:10px;letter-spacing:.17em}.scroll-note{position:absolute;bottom:2px;display:flex;align-items:center;gap:10px;color:rgba(255,255,255,.58);font-size:10px;letter-spacing:.17em}.scroll-note:before{content:"";width:38px;height:1px;background:var(--sky)}.hero-art{height:420px;position:relative}.hero-art img{position:absolute;width:400px;height:300px;right:10px;bottom:28px;object-fit:contain;filter:drop-shadow(0 20px 20px rgba(1,19,34,.38));}.temp-note{position:absolute;right:0;top:48px;border-left:1px solid var(--sky);padding-left:12px;color:rgba(255,255,255,.8);font-size:11px;line-height:1.55}.temp-note b{font:700 29px "Playfair Display",serif;color:var(--sky)}
-    section:not(.hero){padding:116px 0}.section-title{font:700 clamp(30px,4vw,46px)/1.28 "Noto Serif TC",serif;letter-spacing:.04em}.story-grid,.brew-grid{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:clamp(45px,8vw,105px)}.seal-stage{height:388px;position:relative}.seal{display:grid;place-content:center;width:300px;height:300px;border:1px solid var(--blue);border-radius:50%;background:radial-gradient(circle,rgba(117,198,232,.2),transparent 63%);color:var(--blue);text-align:center}.seal b{font:700 31px/1.35 "Noto Serif TC",serif;letter-spacing:.1em}.seal span{margin-top:12px;font-size:10px;letter-spacing:.2em}.sky-note{position:absolute;right:0;bottom:0;width:230px;padding:23px;background:var(--navy);color:#fff;box-shadow:var(--shadow)}.sky-note small{color:var(--sky);font-size:10px;letter-spacing:.18em}.sky-note p{margin:8px 0 0;font-family:"Noto Serif TC",serif;font-size:18px;line-height:1.55}.story-copy p{color:var(--muted)}.text-link{display:inline-block;margin-top:8px;color:var(--blue);font-weight:700;border-bottom:1px solid currentColor}
-    .coffee{background:var(--mist)}.title-row{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:40px}.title-row p{max-width:350px;margin:0;color:var(--muted)}.coffee-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}.coffee-card{position:relative;isolation:isolate;overflow:hidden;display:flex;flex-direction:column;min-height:384px;padding:31px;background:var(--navy);color:#fff;box-shadow:var(--shadow)}.coffee-card:nth-child(2){background:#106396}.coffee-card:nth-child(3){background:#164c68}.coffee-card:after{content:"";position:absolute;z-index:-1;right:-92px;bottom:-92px;width:260px;height:260px;border:1px solid rgba(255,255,255,.24);border-radius:50%;box-shadow:0 0 0 35px rgba(255,255,255,.05),0 0 0 70px rgba(255,255,255,.035)}.coffee-number{font:600 13px "Playfair Display",serif;letter-spacing:.13em;color:var(--sky)}.coffee-card h3{margin:48px 0 8px;font:700 27px/1.35 "Noto Serif TC",serif}.region{font-size:10px;letter-spacing:.14em;color:rgba(255,255,255,.65)}.flavour{color:rgba(255,255,255,.78)}.card-bottom{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-top:auto}.price{font:700 18px "Playfair Display",serif}.favorite{border:0;background:transparent;padding:4px 0;color:#fff;font-size:13px;transition:color .2s}.favorite:hover{color:var(--sand)}
-    .brew-grid{grid-template-columns:.93fr 1.07fr}.video-wrap{aspect-ratio:560/315;background:var(--navy);box-shadow:var(--shadow)}.video-wrap iframe{width:100%;height:100%;border:0}.steps{list-style:none;margin:27px 0 0;padding:0;border-top:1px solid var(--line)}.steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;padding:17px 0;border-bottom:1px solid var(--line)}.step-no{font:600 21px "Playfair Display",serif;color:var(--blue)}.steps h3{margin:0 0 3px;font-size:16px}.steps p{margin:0;color:var(--muted);font-size:14px}
-    .visit{position:relative;overflow:hidden;background:var(--navy);color:#fff;text-align:center}.visit:before,.visit:after{content:"";position:absolute;width:410px;height:410px;border:1px solid rgba(117,198,232,.25);border-radius:50%}.visit:before{left:-240px;top:-190px}.visit:after{right:-240px;bottom:-200px;box-shadow:0 0 0 50px rgba(117,198,232,.04)}.visit .wrap{position:relative;z-index:1;max-width:720px}.visit .eyebrow{justify-content:center;color:var(--sky)}.visit .eyebrow:after{content:"";width:28px;height:1px;background:currentColor}.visit h2{margin-bottom:15px}.visit p{color:rgba(255,255,255,.72)}.subscribe-form{display:flex;margin:30px auto 0;max-width:600px;padding:5px;border:1px solid rgba(255,255,255,.52)}.subscribe-form input{flex:1;min-width:0;border:0;background:transparent;padding:11px 14px;color:#fff;outline:0}.subscribe-form input::placeholder{color:rgba(255,255,255,.62)}.subscribe-form button{border:0;background:var(--sand);padding:10px 21px;color:var(--navy);font-weight:700}
-    footer{background:#031c31;color:rgba(255,255,255,.72);padding:68px 0 24px}.footer-grid{display:grid;grid-template-columns:1.5fr .8fr 1.1fr;gap:50px}.footer-brand{color:#fff}.footer-brand .brand{margin-bottom:16px}.footer-brand p{max-width:310px;font-size:14px}.footer-title{margin:0 0 14px;color:var(--sky);font-size:11px;font-weight:700;letter-spacing:.18em}.footer-links{display:grid;gap:8px;font-size:14px}.footer-links a:hover{color:var(--sky)}.footer-base{display:flex;justify-content:space-between;gap:16px;margin-top:49px;padding-top:19px;border-top:1px solid rgba(255,255,255,.15);font-size:10px;letter-spacing:.1em}.toast{position:fixed;z-index:20;right:22px;bottom:22px;max-width:min(360px,calc(100% - 44px));border-left:3px solid var(--sand);padding:13px 17px;background:var(--navy);color:#fff;box-shadow:var(--shadow);opacity:0;transform:translateY(12px);pointer-events:none;transition:.25s}.toast.show{opacity:1;transform:none}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
-    @media(max-width:820px){.menu-toggle{display:block}.nav-links{position:absolute;top:78px;left:0;width:100%;max-height:0;overflow:hidden;display:block;background:#05233c;transition:max-height .3s}.nav-links.open{max-height:300px}.nav-links li{border-bottom:1px solid rgba(255,255,255,.1)}.nav-links a{display:block;padding:13px 24px}.nav-links .nav-cta{margin:10px 24px}.hero{min-height:710px}.hero-grid{grid-template-columns:1fr;padding-top:25px}.hero-art{height:225px}.hero-art img{width:320px;height:240px;right:50%;bottom:-12px;transform:translateX(50%)}.temp-note{right:8%;top:2px}.scroll-note{display:none}.story-grid,.brew-grid{grid-template-columns:1fr;gap:45px}.coffee-grid{grid-template-columns:repeat(2,1fr)}.coffee-card:nth-child(3){grid-column:span 2}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:span 2}}
-    @media(max-width:560px){.wrap{width:calc(100% - 34px)}.brand strong{font-size:13px}.hero{min-height:680px;padding-top:105px}.hero h1{font-size:40px}.hero-lede{font-size:14px}.hero-art{height:185px}.hero-art img{width:270px;height:205px}.temp-note{display:none}section:not(.hero){padding:76px 0}.seal-stage{height:310px}.seal{width:245px;height:245px}.seal b{font-size:25px}.sky-note{width:185px;padding:17px}.sky-note p{font-size:15px}.title-row{display:block;margin-bottom:28px}.title-row p{margin-top:14px}.coffee-grid{grid-template-columns:1fr}.coffee-card,.coffee-card:nth-child(3){grid-column:auto;min-height:330px}.video-wrap{margin:0 -17px}.subscribe-form{flex-direction:column;gap:5px}.subscribe-form input,.subscribe-form button{width:100%;min-height:48px}.footer-grid{grid-template-columns:1fr;gap:30px}.footer-brand{grid-column:auto}.footer-base{display:block;line-height:2}.footer-base span{display:block}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+    /* ----------------------------------------------------
+       CSS Variables & Global Reset (Design Tokens)
+    ---------------------------------------------------- */
+    :root {
+      --primary-yellow: #F59E0B;
+      --primary-light: #FBBF24;
+      --primary-dark: #D97706;
+      --accent-red: #EF4444;
+      --accent-red-dark: #DC2626;
+      --potato-dark: #261E14;
+      --potato-brown: #78350F;
+      --bg-cream: #FFFDF5;
+      --bg-soft-yellow: #FEF9E7;
+      --card-bg: #FFFFFF;
+      --text-main: #1F2937;
+      --text-muted: #6B7280;
+      --border-line: #FDE68A;
+      --shadow-sm: 0 4px 12px rgba(217, 119, 6, 0.08);
+      --shadow-md: 0 10px 25px rgba(217, 119, 6, 0.15);
+      --shadow-lg: 0 20px 40px rgba(120, 53, 15, 0.18);
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 28px;
+      --radius-full: 9999px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-family: inherit;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--primary-dark);
+      outline-offset: 2px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: min(1200px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    /* ----------------------------------------------------
+       Buttons & Badges
+    ---------------------------------------------------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 14px 28px;
+      border-radius: var(--radius-full);
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px) scale(1.02);
+    }
+
+    .btn:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      box-shadow: 0 8px 20px rgba(245, 158, 11, 0.35);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 12px 28px rgba(245, 158, 11, 0.45);
+      background: linear-gradient(135deg, #FBBF24 0%, #D97706 100%);
+    }
+
+    .btn-secondary {
+      background-color: #FFFFFF;
+      color: var(--potato-brown);
+      border: 2px solid var(--primary-yellow);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--bg-soft-yellow);
+    }
+
+    .btn-red {
+      background: linear-gradient(135deg, #EF4444 0%, #B91C1C 100%);
+      color: #FFFFFF;
+      box-shadow: 0 8px 20px rgba(239, 68, 68, 0.35);
+    }
+
+    .btn-red:hover {
+      box-shadow: 0 12px 28px rgba(239, 68, 68, 0.45);
+      background: linear-gradient(135deg, #F87171 0%, #DC2626 100%);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      border-radius: var(--radius-full);
+      background-color: var(--bg-soft-yellow);
+      color: var(--potato-brown);
+      border: 1px solid var(--border-line);
+    }
+
+    .badge-red {
+      background-color: #FEE2E2;
+      color: var(--accent-red-dark);
+      border: 1px solid #FECACA;
+    }
+
+    /* ----------------------------------------------------
+       Section Header Styling
+    ---------------------------------------------------- */
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 50px;
+    }
+
+    .section-header .sub-title {
+      color: var(--primary-dark);
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+
+    .section-header h2 {
+      font-size: clamp(2rem, 3.5vw, 2.75rem);
+      font-weight: 900;
+      color: var(--potato-dark);
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+
+    .section-header h2 span {
+      color: var(--primary-dark);
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-header h2 span::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background-color: var(--primary-light);
+      opacity: 0.45;
+      z-index: -1;
+      border-radius: 4px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    /* ----------------------------------------------------
+       5.1 Fixed Navigation Bar
+    ---------------------------------------------------- */
+    .site-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: rgba(255, 253, 245, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(253, 230, 138, 0.6);
+      transition: all 0.3s ease;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+      position: relative;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #F59E0B, #D97706);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+      transform: rotate(-6deg);
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .brand-logo:hover .brand-icon {
+      transform: rotate(6deg) scale(1.1);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-family: 'Fredoka', 'Noto Sans TC', sans-serif;
+      font-weight: 700;
+      font-size: 1.45rem;
+      color: var(--potato-dark);
+      line-height: 1;
+      letter-spacing: -0.5px;
+    }
+
+    .brand-sub {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      letter-spacing: 2px;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-link {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--potato-dark);
+      transition: color 0.2s ease;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      width: 0;
+      height: 3px;
+      background-color: var(--primary-yellow);
+      border-radius: 2px;
+      transition: all 0.25s ease;
+      transform: translateX(-50%);
+    }
+
+    .nav-link:hover {
+      color: var(--primary-dark);
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .cart-btn {
+      position: relative;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      background-color: var(--bg-soft-yellow);
+      border: 1px solid var(--border-line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: var(--potato-brown);
+      transition: transform 0.2s ease;
+    }
+
+    .cart-btn:hover {
+      transform: scale(1.08);
+    }
+
+    .cart-count {
+      position: absolute;
+      top: -3px;
+      right: -3px;
+      background-color: var(--accent-red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 900;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(239, 68, 68, 0.4);
+    }
+
+    .mobile-toggle {
+      display: none;
+      font-size: 1.6rem;
+      color: var(--potato-dark);
+      background: none;
+      border: none;
+      padding: 6px;
+      line-height: 1;
+    }
+
+    /* ----------------------------------------------------
+       5.2 Hero Section
+    ---------------------------------------------------- */
+    .hero {
+      padding: 140px 0 90px;
+      background: radial-gradient(circle at 80% 20%, #FEF3C7 0%, #FFFDF5 65%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      right: -100px;
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, rgba(251, 191, 36, 0.25) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .hero-content {
+      z-index: 2;
+    }
+
+    .hero-badge-wrap {
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 4.5vw, 3.8rem);
+      font-weight: 900;
+      color: var(--potato-dark);
+      line-height: 1.18;
+      letter-spacing: -1px;
+      margin-bottom: 22px;
+    }
+
+    .hero-title .highlight {
+      color: var(--primary-dark);
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-title .highlight::after {
+      content: '🍟';
+      font-size: 0.65em;
+      vertical-align: super;
+      margin-left: 4px;
+    }
+
+    .hero-desc {
+      font-size: 1.15rem;
+      color: #4B5563;
+      margin-bottom: 34px;
+      max-width: 540px;
+      line-height: 1.7;
+    }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 36px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-line);
+    }
+
+    .stat-item h3 {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--potato-brown);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .stat-item p {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    /* Hero Visual Image */
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-photo,
+    .hero-visual img {
+      width: 400px;
+      height: 300px;
+      max-width: 100%;
+      object-fit: cover;
+      border-radius: var(--radius-lg);
+      border: 3px solid var(--primary-light);
+      box-shadow: var(--shadow-lg);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      display: block;
+    }
+
+    .hero-photo:hover,
+    .hero-visual img:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 45px rgba(120, 53, 15, 0.25);
+    }
+
+    /* Floating badges */
+    .float-tag {
+      position: absolute;
+      background-color: #FFFFFF;
+      padding: 10px 18px;
+      border-radius: var(--radius-full);
+      box-shadow: var(--shadow-md);
+      font-weight: 700;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      animation: floatBadge 3.5s ease-in-out infinite;
+      z-index: 3;
+    }
+
+    .float-tag-1 {
+      top: -15px;
+      left: -15px;
+      color: var(--accent-red-dark);
+      border: 1px solid #FECACA;
+      animation-delay: 0s;
+    }
+
+    .float-tag-2 {
+      bottom: -15px;
+      right: -15px;
+      color: var(--primary-dark);
+      border: 1px solid var(--border-line);
+      animation-delay: 1.7s;
+    }
+
+    @keyframes floatBadge {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* ----------------------------------------------------
+       5.3 Interactive Shaker Simulator (搖搖實驗室)
+    ---------------------------------------------------- */
+    .shaker-section {
+      padding: 100px 0;
+      background-color: var(--bg-soft-yellow);
+      border-top: 1px solid var(--border-line);
+      border-bottom: 1px solid var(--border-line);
+      position: relative;
+    }
+
+    .shaker-box {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      border: 2px solid var(--border-line);
+      padding: 44px;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .shaker-controls h3 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--potato-dark);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .control-group {
+      margin-bottom: 24px;
+    }
+
+    .control-label {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--potato-brown);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .option-chip {
+      padding: 12px 10px;
+      background-color: var(--bg-cream);
+      border: 2px solid #E5E7EB;
+      border-radius: var(--radius-sm);
+      text-align: center;
+      font-weight: 700;
+      font-size: 0.88rem;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .option-chip span.emoji {
+      font-size: 1.4rem;
+    }
+
+    .option-chip:hover {
+      border-color: var(--primary-light);
+      background-color: #FFFDF0;
+    }
+
+    .option-chip.active {
+      border-color: var(--primary-dark);
+      background-color: #FEF3C7;
+      color: var(--potato-brown);
+      box-shadow: 0 4px 10px rgba(245, 158, 11, 0.2);
+    }
+
+    /* Shaker Preview Area */
+    .shaker-display {
+      background: radial-gradient(circle, #FFFBEB 0%, #FEF3C7 100%);
+      border: 2px dashed var(--primary-yellow);
+      border-radius: var(--radius-md);
+      padding: 36px 24px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 380px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .fry-bag {
+      width: 170px;
+      height: 220px;
+      background: linear-gradient(135deg, #EF4444 0%, #B91C1C 100%);
+      border-radius: 14px 14px 28px 28px;
+      position: relative;
+      box-shadow: 0 12px 28px rgba(185, 28, 28, 0.35);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 900;
+      transition: transform 0.1s ease;
+      user-select: none;
+    }
+
+    .fry-bag::before {
+      content: '';
+      position: absolute;
+      top: -24px;
+      width: 120px;
+      height: 34px;
+      background: repeating-linear-gradient(
+        90deg,
+        #F59E0B,
+        #F59E0B 12px,
+        #FBBF24 12px,
+        #FBBF24 24px
+      );
+      border-radius: 8px 8px 0 0;
+      box-shadow: 0 -4px 10px rgba(217, 119, 6, 0.2);
+    }
+
+    .fry-bag-logo {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 2.2rem;
+      letter-spacing: -1px;
+      line-height: 1;
+      margin-bottom: 6px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .fry-bag-flavor {
+      font-size: 0.95rem;
+      background: rgba(255, 255, 255, 0.25);
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 6px;
+    }
+
+    /* CSS Keyframes for bag shaking */
+    @keyframes shakeAnimation {
+      0% { transform: rotate(0deg) scale(1); }
+      15% { transform: rotate(-14deg) translateY(-12px) scale(1.08); }
+      30% { transform: rotate(14deg) translateY(12px) scale(1.08); }
+      45% { transform: rotate(-14deg) translateY(-8px); }
+      60% { transform: rotate(14deg) translateY(8px); }
+      75% { transform: rotate(-8deg) translateY(-4px); }
+      90% { transform: rotate(8deg) translateY(4px); }
+      100% { transform: rotate(0deg) scale(1); }
+    }
+
+    .fry-bag.shaking {
+      animation: shakeAnimation 0.65s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+    }
+
+    .shake-action-area {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .shake-result-text {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--potato-brown);
+      min-height: 28px;
+    }
+
+    /* Particle sprinkle effects */
+    .particle {
+      position: absolute;
+      pointer-events: none;
+      border-radius: 50%;
+      animation: popParticle 0.8s ease-out forwards;
+    }
+
+    @keyframes popParticle {
+      0% { transform: translate(0, 0) scale(1); opacity: 1; }
+      100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
+    }
+
+    /* ----------------------------------------------------
+       5.4 Flavors Section (6 款獨門招牌風味粉)
+    ---------------------------------------------------- */
+    .flavors-section {
+      padding: 100px 0;
+    }
+
+    .flavors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 28px;
+    }
+
+    .flavor-card {
+      background-color: var(--card-bg);
+      border-radius: var(--radius-md);
+      border: 1px solid rgba(253, 230, 138, 0.8);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .flavor-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary-yellow);
+    }
+
+    .flavor-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .flavor-icon-box {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+
+    .flavor-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--potato-dark);
+      margin-bottom: 8px;
+    }
+
+    .flavor-eng {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    .flavor-desc {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 22px;
+      flex-grow: 1;
+    }
+
+    .flavor-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 18px;
+      border-top: 1px dashed #E5E7EB;
+    }
+
+    .flavor-price {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--potato-brown);
+    }
+
+    .flavor-price small {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    /* ----------------------------------------------------
+       5.5 Potato Craftsmanship / Brand Story (馬鈴薯極致堅持)
+    ---------------------------------------------------- */
+    .story-section {
+      padding: 100px 0;
+      background-color: #FEFCE8;
+      border-top: 1px solid var(--border-line);
+      border-bottom: 1px solid var(--border-line);
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .story-card {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-md);
+      padding: 36px 28px;
+      text-align: center;
+      border: 1px solid var(--border-line);
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .story-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .story-icon {
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+      color: var(--potato-brown);
+      border-radius: 50%;
+      margin: 0 auto 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      flex-shrink: 0;
+    }
+
+    .story-card h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--potato-dark);
+      margin-bottom: 12px;
+    }
+
+    .story-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* Embedded YouTube Video Container in Card 3 */
+    .story-card-video {
+      text-align: center;
+    }
+
+    .story-card-video .video-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 560px;
+      aspect-ratio: 560 / 315;
+      margin: 12px auto 16px;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+      background-color: #000;
+    }
+
+    .story-card-video .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .story-video-link {
+      display: inline-block;
+      margin-top: auto;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      transition: color 0.2s ease;
+      word-break: break-all;
+    }
+
+    .story-video-link:hover {
+      color: var(--accent-red-dark);
+      text-decoration: underline;
+    }
+
+    /* ----------------------------------------------------
+       5.6 Combo Section (超值狂歡套餐)
+    ---------------------------------------------------- */
+    .combos-section {
+      padding: 100px 0;
+    }
+
+    .combos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .combo-card {
+      background-color: var(--card-bg);
+      border-radius: var(--radius-lg);
+      border: 2px solid var(--border-line);
+      padding: 36px 30px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .combo-card.popular {
+      border-color: var(--primary-dark);
+      box-shadow: var(--shadow-md);
+      background: linear-gradient(180deg, #FFFDF5 0%, #FFFFFF 100%);
+    }
+
+    .popular-tag {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, #F59E0B, #EF4444);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 4px 16px;
+      border-radius: var(--radius-full);
+      box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+      white-space: nowrap;
+    }
+
+    .combo-header {
+      margin-bottom: 18px;
+    }
+
+    .combo-title {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--potato-dark);
+      margin-bottom: 6px;
+    }
+
+    .combo-price-wrap {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .combo-price {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--potato-brown);
+    }
+
+    .combo-old-price {
+      font-size: 1rem;
+      color: #9CA3AF;
+      text-decoration: line-through;
+    }
+
+    .combo-items {
+      list-style: none;
+      margin-bottom: 28px;
+      flex-grow: 1;
+    }
+
+    .combo-items li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.95rem;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .combo-items li::before {
+      content: '✓';
+      color: var(--primary-dark);
+      font-weight: 900;
+      font-size: 1.1rem;
+    }
+
+    /* ----------------------------------------------------
+       5.7 Testimonials (薯友真實狂熱好評)
+    ---------------------------------------------------- */
+    .reviews-section {
+      padding: 90px 0;
+      background-color: var(--bg-soft-yellow);
+      border-top: 1px solid var(--border-line);
+      border-bottom: 1px solid var(--border-line);
+    }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 26px;
+    }
+
+    .review-card {
+      background-color: #FFFFFF;
+      border-radius: var(--radius-md);
+      padding: 28px;
+      border: 1px solid var(--border-line);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .stars {
+      color: #F59E0B;
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+    }
+
+    .review-text {
+      font-size: 0.98rem;
+      color: #4B5563;
+      line-height: 1.6;
+      margin-bottom: 18px;
+      font-style: italic;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .reviewer-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: #FEF3C7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--potato-brown);
+    }
+
+    .reviewer-info h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--potato-dark);
+    }
+
+    .reviewer-info span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* 5.7 地址動作卡片樣式 */
+    .reviews-location-card {
+      margin-top: 36px;
+      background-color: #FFFFFF;
+      border: 1px solid var(--border-line);
+      border-radius: var(--radius-md);
+      padding: 24px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .reviews-location-card .location-icon {
+      font-size: 2.2rem;
+      width: 52px;
+      height: 52px;
+      background-color: var(--bg-soft-yellow);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .reviews-location-card .location-details {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .reviews-location-card .location-details h4 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--potato-dark);
+      margin-bottom: 6px;
+    }
+
+    .reviews-location-card .location-details p {
+      font-size: 0.98rem;
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+
+    .reviews-location-card .map-link {
+      font-weight: 700;
+      color: var(--potato-brown);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      transition: color 0.2s ease;
+    }
+
+    .reviews-location-card .map-link:hover {
+      color: var(--accent-red-dark);
+    }
+
+    .reviews-location-card .location-btn {
+      padding: 10px 22px;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+
+    .footer-col ul li a.footer-map-link {
+      color: #FBBF24;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+
+    .footer-col ul li a.footer-map-link:hover {
+      color: #FFFFFF;
+    }
+
+    /* ----------------------------------------------------
+       5.8 Call To Action Banner
+    ---------------------------------------------------- */
+    .cta-banner {
+      padding: 90px 0;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+      color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-banner h2 {
+      font-size: clamp(2.2rem, 4vw, 3.2rem);
+      font-weight: 900;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .cta-banner p {
+      font-size: 1.15rem;
+      opacity: 0.95;
+      max-width: 600px;
+      margin: 0 auto 34px;
+    }
+
+    .cta-banner .btn {
+      background-color: #FFFFFF;
+      color: var(--potato-brown);
+      font-size: 1.15rem;
+      padding: 16px 36px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-banner .btn:hover {
+      background-color: var(--bg-cream);
+      transform: translateY(-3px) scale(1.03);
+    }
+
+    /* ----------------------------------------------------
+       5.9 Shopping Cart Modal / Drawer
+    ---------------------------------------------------- */
+    .cart-drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(4px);
+      z-index: 2000;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .cart-drawer-overlay.open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .cart-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: min(440px, 100%);
+      height: 100%;
+      background-color: #FFFFFF;
+      z-index: 2001;
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .cart-drawer-overlay.open .cart-drawer {
+      transform: translateX(0);
+    }
+
+    .cart-header {
+      padding: 24px;
+      border-bottom: 1px solid #E5E7EB;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .cart-header h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--potato-dark);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cart-close-btn {
+      font-size: 1.8rem;
+      color: var(--text-muted);
+      padding: 4px 8px;
+      line-height: 1;
+    }
+
+    .cart-close-btn:hover {
+      color: var(--potato-dark);
+    }
+
+    .cart-body {
+      padding: 24px;
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid #F3F4F6;
+    }
+
+    .cart-item-info h4 {
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: var(--potato-dark);
+    }
+
+    .cart-item-info span {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .cart-item-price {
+      font-weight: 700;
+      color: var(--potato-brown);
+      font-size: 1rem;
+    }
+
+    .cart-empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .cart-empty-state .icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .cart-footer {
+      padding: 24px;
+      border-top: 1px solid #E5E7EB;
+      background-color: var(--bg-soft-yellow);
+    }
+
+    .cart-total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--potato-dark);
+    }
+
+    .cart-total-row .total-amount {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 1.6rem;
+      color: var(--potato-brown);
+    }
+
+    /* ----------------------------------------------------
+       5.10 Footer
+    ---------------------------------------------------- */
+    .site-footer {
+      background-color: var(--potato-dark);
+      color: #D1D5DB;
+      padding: 70px 0 30px;
+      font-size: 0.95rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+
+    .footer-brand .brand-title {
+      color: #FFFFFF;
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .footer-brand p {
+      color: #9CA3AF;
+      line-height: 1.6;
+      max-width: 340px;
+    }
+
+    .footer-col h4 {
+      color: #FFFFFF;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+      position: relative;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+      color: #9CA3AF;
+      transition: color 0.2s ease;
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--primary-light);
+    }
+
+    .footer-bottom {
+      padding-top: 30px;
+      border-top: 1px solid #374151;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #9CA3AF;
+    }
+
+    .footer-bottom p {
+      margin-bottom: 6px;
+    }
+
+    /* ----------------------------------------------------
+       7. Responsive Breakpoints
+    ---------------------------------------------------- */
+    @media (max-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .hero-desc {
+        margin: 0 auto 34px;
+      }
+      .hero-btns {
+        justify-content: center;
+      }
+      .hero-stats {
+        justify-content: center;
+      }
+      .shaker-box {
+        grid-template-columns: 1fr;
+      }
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-photo,
+      .hero-visual img {
+        width: min(100%, 400px);
+        height: auto;
+        aspect-ratio: 4 / 3;
+      }
+      .mobile-toggle {
+        display: block;
+      }
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 253, 245, 0.98);
+        flex-direction: column;
+        padding: 24px;
+        gap: 18px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid var(--border-line);
+      }
+      .nav-menu.open {
+        display: flex;
+      }
+      .options-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .reviews-location-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .reviews-location-card .location-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
   </style>
 </head>
 <body>
-  <header id="top"><nav class="wrap" aria-label="主要導覽"><a class="brand" href="#top" aria-label="回到藍天咖啡首頁"><span class="brand-mark">B</span><span><strong>藍天咖啡</strong><small>BLUE SKY COFFEE</small></span></a><button class="menu-toggle" type="button" aria-label="開啟導覽選單" aria-controls="navLinks" aria-expanded="false">☰</button><ul class="nav-links" id="navLinks"><li><a href="#story">我們的故事</a></li><li><a href="#coffee">本季選豆</a></li><li><a href="#brew">沖煮日常</a></li><li><a class="nav-cta" href="#visit">訂閱風味通信</a></li></ul></nav></header>
-  <main>
-    <section class="hero" aria-labelledby="heroTitle"><div class="wrap hero-grid"><div><p class="eyebrow">HAND BREWED · SLOWLY ROASTED</p><h1 id="heroTitle">讓風味，在<span class="sky-text">藍天</span>下慢慢抵達。</h1><p class="hero-lede">藍天咖啡為喜歡手沖的您，挑選值得細品的單一產區咖啡豆。從第一縷花香，到最後一口回甘，每一杯都有屬於自己的晴朗天氣。</p><div class="hero-actions"><a class="button primary" href="#coffee">探索本季咖啡豆 →</a><a class="button secondary" href="#story">認識藍天</a></div><p class="origin">TAIPEI · TAIWAN · EST. 2025</p></div><div class="hero-art" aria-hidden="true"><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop stop-color='%2375c6e8'/%3E%3Cstop offset='1' stop-color='%230c5b95'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='285' cy='70' r='45' fill='%23e5b66b' opacity='.95'/%3E%3Cpath d='M0 245 108 130l55 60 83-107 154 162z' fill='url(%23g)' opacity='.8'/%3E%3Cpath d='M0 260 108 160l55 53 83-88 154 135z' fill='%230c5b95'/%3E%3Cpath d='M148 251c10-55 28-104 84-104s75 51 84 104z' fill='%23fbfaf6'/%3E%3Cpath d='M174 200c13-37 34-57 58-57s44 20 58 57' fill='none' stroke='%23fbfaf6' stroke-width='10'/%3E%3Cpath d='M134 251h197' stroke='%2375c6e8' stroke-width='4'/%3E%3C/svg%3E"><div class="temp-note"><b>92°C</b><br>理想水溫<br>細細喚醒香氣</div></div><p class="scroll-note">SCROLL TO DISCOVER</p></div></section>
-    <section id="story"><div class="wrap story-grid"><div class="seal-stage reveal"><div class="seal"><b>慢一點，<br>更清楚。</b><span>LET THE FLAVOUR SPEAK</span></div><div class="sky-note"><small>BLUE SKY NOTE</small><p>一杯好咖啡，從來不是匆忙完成的事。</p></div></div><div class="story-copy reveal"><p class="eyebrow">OUR PHILOSOPHY</p><h2 class="section-title">在一杯之間，看見產地的<span class="sky-text">晴朗</span>。</h2><p>我們相信，精品咖啡的美好不該被複雜掩蓋。以小批次烘焙留住豆子的個性，再用穩定、誠實的手沖，讓風土與時間在杯中變得清晰。</p><p>給懂得放慢腳步的人，也給每一個想重新認識咖啡的人。</p><a class="text-link" href="#brew">看看我們如何沖煮 →</a></div></div></section>
-    <section class="coffee" id="coffee"><div class="wrap"><div class="title-row reveal"><div><p class="eyebrow">SEASONAL SELECTION</p><h2 class="section-title">今天，想喝哪一片<span class="sky-text">藍天</span>？</h2></div><p>三款當季單品，為不同的晨光、午後與靜夜而選。</p></div><div class="coffee-grid"><article class="coffee-card reveal"><span class="coffee-number">01 / BRIGHT</span><h3>衣索比亞・耶加雪菲</h3><span class="region">ETHIOPIA · YIRGACHEFFE</span><p class="flavour">白花、佛手柑、蜂蜜</p><div class="card-bottom"><span class="price">NT$ 520 / 200g</span><button class="favorite" type="button" data-coffee="衣索比亞・耶加雪菲" aria-label="將衣索比亞・耶加雪菲加入收藏">加入收藏 ＋</button></div></article><article class="coffee-card reveal"><span class="coffee-number">02 / JUICY</span><h3>肯亞・祈安布</h3><span class="region">KENYA · KIRINYAGA</span><p class="flavour">黑醋栗、洛神、葡萄柚</p><div class="card-bottom"><span class="price">NT$ 580 / 200g</span><button class="favorite" type="button" data-coffee="肯亞・祈安布" aria-label="將肯亞・祈安布加入收藏">加入收藏 ＋</button></div></article><article class="coffee-card reveal"><span class="coffee-number">03 / ROUND</span><h3>哥倫比亞・慧蘭</h3><span class="region">COLOMBIA · HUILA</span><p class="flavour">黃桃、焦糖、可可尾韻</p><div class="card-bottom"><span class="price">NT$ 460 / 200g</span><button class="favorite" type="button" data-coffee="哥倫比亞・慧蘭" aria-label="將哥倫比亞・慧蘭加入收藏">加入收藏 ＋</button></div></article></div></div></section>
-    <section id="brew"><div class="wrap brew-grid"><div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/hMOYa4EBntI" title="藍天咖啡手沖日常影片" allowfullscreen></iframe></div><div class="reveal"><p class="eyebrow">A QUIET RITUAL</p><h2 class="section-title">把時間交給水，讓咖啡說<span class="sky-text">自己的話</span>。</h2><p>不需要繁複儀式，只要三個安靜的步驟。每一個參數，都是為了讓你更靠近豆子原本的樣子。</p><ol class="steps"><li><span class="step-no">01</span><div><h3>研磨，先聞見期待</h3><p>15g 中細研磨，讓香氣從指尖開始展開。</p></div></li><li><span class="step-no">02</span><div><h3>悶蒸，等待第一個呼吸</h3><p>以 92°C 熱水浸潤 30 秒，喚醒甜感與層次。</p></div></li><li><span class="step-no">03</span><div><h3>注水，保持自己的節奏</h3><p>穩定畫圈，讓 240ml 的清澈在 2 分 45 秒完成。</p></div></li></ol></div></div></section>
-    <section class="visit" id="visit"><div class="wrap reveal"><p class="eyebrow">THE BLUE SKY LETTER</p><h2 class="section-title">把下一杯好咖啡，寄到你的日常裡。</h2><p>每月一封風味通信，分享新豆、沖煮靈感與只給會員的小小驚喜。</p><form class="subscribe-form" id="subscribeForm"><input type="email" required aria-label="電子郵件地址" placeholder="輸入你的電子郵件地址"><button type="submit">訂閱風味通信</button></form></div></section>
-  </main>
-  <footer><div class="wrap"><div class="footer-grid"><div class="footer-brand"><div class="brand"><span class="brand-mark">B</span><span><strong>藍天咖啡</strong><small>BLUE SKY COFFEE</small></span></div><p>為喜愛手沖咖啡的你，留下一段慢慢品味、微微放晴的時間。</p></div><div><p class="footer-title">網站主題</p><div class="footer-links"><a href="#story">我們的故事</a><a href="#coffee">本季選豆</a><a href="#brew">沖煮日常</a></div></div><div><p class="footer-title">聯絡我們</p><div class="footer-links"><a href="mailto:hello@bluesky.coffee">hello@bluesky.coffee</a><a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%83%91%E5%85%89%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8" target="_blank" rel="noopener">台中市西屯區僑光路 100 號</a><span>每日 10:00 — 19:00</span></div></div></div><div class="footer-base"><span>© 2025 BLUE SKY COFFEE. ALL RIGHTS RESERVED.</span><span>BREW SLOW · LIVE BRIGHT</span></div></div></footer>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ==================== 5.1 Header Navigation ==================== -->
+  <header class="site-nav" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="搖搖薯條首頁">
+        <div class="brand-icon">🍟</div>
+        <div class="brand-text">
+          <span class="brand-title">搖搖薯條</span>
+          <span class="brand-sub">SHAKE SHAKE FRIES</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="切換選單" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#shaker" class="nav-link">搖搖體驗館</a></li>
+          <li><a href="#flavors" class="nav-link">招牌風味粉</a></li>
+          <li><a href="#story" class="nav-link">現炸秘密</a></li>
+          <li><a href="#combos" class="nav-link">狂歡套餐</a></li>
+          <li><a href="#reviews" class="nav-link">薯友好評</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="openCartBtn" title="查看購物車" aria-label="查看購物車">
+          🛒
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <a href="#combos" class="btn btn-primary" style="padding: 10px 22px; font-size: 0.9rem;">
+          立即點餐
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== 5.2 Hero Section ==================== -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-red">🔥 2026 人氣新上市・全台熱銷狂搖！</span>
+        </div>
+        <h1 class="hero-title">
+          喀滋酥脆，粉香四溢！<br>
+          每一口都<span class="highlight">搖出靈魂</span>
+        </h1>
+        <p class="hero-desc">
+          嚴選 100% 產地直送頂級高澱粉馬鈴薯，黃金油溫現點現炸！酥脆外皮鎖住軟綿薯香，搭配獨創 6 款極致搖搖風味粉，雙手一搖，香濃滿溢，咔滋停不下來！
+        </p>
+
+        <div class="hero-btns">
+          <a href="#shaker" class="btn btn-primary">
+            <span>🍟</span> 親自搖一包！體驗互動
+          </a>
+          <a href="#flavors" class="btn btn-secondary">
+            探索 6 大經典風味
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>嚴選特級鮮切馬鈴薯</p>
+          </div>
+          <div class="stat-item">
+            <h3>6 種</h3>
+            <p>獨門特調搖搖粉</p>
+          </div>
+          <div class="stat-item">
+            <h3>99.8%</h3>
+            <p>吃過狂推回購率</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="float-tag float-tag-1">
+          <span>✨</span> 現點現炸 180°C 金黃酥脆
+        </div>
+        <div class="float-tag float-tag-2">
+          <span>🧀</span> 裹粉率 360° 完美包覆
+        </div>
+        <img class="hero-photo" src="images/hero.jpg" alt="現炸金黃酥脆搖搖薯條" width="400" height="300">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.3 Interactive Shaker Section ==================== -->
+  <section class="shaker-section" id="shaker">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Interactive Experience</span>
+        <h2>線上 <span>搖搖實驗室</span></h2>
+        <p>挑選你喜愛的薯條切法與專屬風味粉，點擊「開始搖一搖」，聽見咔滋酥脆的混響節奏！</p>
+      </div>
+
+      <div class="shaker-box">
+        <!-- Controls -->
+        <div class="shaker-controls">
+          <h3><span>🎨</span> 步驟 1：客製你的專屬薯條</h3>
+
+          <div class="control-group">
+            <span class="control-label">① 挑選馬鈴薯口感切法</span>
+            <div class="options-grid" id="cutOptions">
+              <button class="option-chip active" data-cut="細脆黃金薯" data-cut-en="Classic Thin">
+                <span class="emoji">🍟</span>
+                細脆黃金薯
+              </button>
+              <button class="option-chip" data-cut="厚切波浪薯" data-cut-en="Crinkle Cut">
+                <span class="emoji">〰️</span>
+                厚切波浪薯
+              </button>
+              <button class="option-chip" data-cut="帶皮黃金塊" data-cut-en="Wedges">
+                <span class="emoji">🥔</span>
+                帶皮黃金塊
+              </button>
+            </div>
+          </div>
+
+          <div class="control-group">
+            <span class="control-label">② 挑選靈魂搖搖風味粉</span>
+            <div class="options-grid" id="flavorOptions">
+              <button class="option-chip active" data-flavor="香濃黃金起司" data-color="#F59E0B" data-emoji="🧀">
+                <span class="emoji">🧀</span>
+                黃金起司
+              </button>
+              <button class="option-chip" data-flavor="日式青海苔" data-color="#10B981" data-emoji="🌿">
+                <span class="emoji">🌿</span>
+                日式青海苔
+              </button>
+              <button class="option-chip" data-flavor="勁辣墨西哥" data-color="#EF4444" data-emoji="🌶️">
+                <span class="emoji">🌶️</span>
+                勁辣墨西哥
+              </button>
+              <button class="option-chip" data-flavor="蒜香黑胡椒" data-color="#4B5563" data-emoji="🧄">
+                <span class="emoji">🧄</span>
+                蒜香黑胡椒
+              </button>
+              <button class="option-chip" data-flavor="洋蔥酸奶" data-color="#3B82F6" data-emoji="🧅">
+                <span class="emoji">🧅</span>
+                洋蔥酸奶
+              </button>
+              <button class="option-chip" data-flavor="黑松露海鹽" data-color="#1F2937" data-emoji="✨">
+                <span class="emoji">✨</span>
+                黑松露海鹽
+              </button>
+            </div>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 12px;">
+              💡 提示：點擊右側或下方按鈕體驗全方位 360° 爆粉搖晃動畫！
+            </p>
+            <button class="btn btn-red" id="shakeBtn" style="width: 100%; font-size: 1.15rem;">
+              <span>🎉</span> 開始瘋狂搖一搖！(SHAKE!)
+            </button>
+          </div>
+        </div>
+
+        <!-- Display Box -->
+        <div class="shaker-display" id="shakerDisplayArea">
+          <div class="fry-bag" id="fryBag">
+            <div class="fry-bag-logo">SHAKE!</div>
+            <div style="font-size: 0.85rem; letter-spacing: 1px;">搖搖薯條</div>
+            <div class="fry-bag-flavor" id="bagFlavorLabel">🧀 香濃黃金起司</div>
+          </div>
+
+          <div class="shake-action-area">
+            <div class="shake-result-text" id="shakeStatusText">
+              準備就緒！按下按鈕即可均勻裹粉 🍟
+            </div>
+            <button class="btn btn-primary" id="addShakerToCartBtn" style="display: none; padding: 10px 20px; font-size: 0.95rem;">
+              ＋ 加入購物車 ($65)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.4 Flavors Section ==================== -->
+  <section class="flavors-section" id="flavors">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Signature Flavors</span>
+        <h2>6 款獨門 <span>搖搖粉介紹</span></h2>
+        <p>主廚獨創特調黃金比例調味粉，細緻研磨能緊密吸附在熱騰騰的現炸薯條上！</p>
+      </div>
+
+      <div class="flavors-grid">
+        <!-- Flavor 1 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">香濃黃金起司</h3>
+              <p class="flavor-eng">Golden Cheddar Cheese</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #FEF3C7; color: #D97706;">
+              🧀
+            </div>
+          </div>
+          <p class="flavor-desc">
+            熟成切達起司粉，奶香馥郁、鹹香甘醇，大人小孩人氣 No.1！
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 65 <small>/ 份</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="香濃黃金起司 搖搖薯條" data-price="65">
+              立即加點
+            </button>
+          </div>
+        </div>
+
+        <!-- Flavor 2 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">日式青海苔</h3>
+              <p class="flavor-eng">Japanese Aonori Seaweed</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #D1FAE5; color: #059669;">
+              🌿
+            </div>
+          </div>
+          <p class="flavor-desc">
+            日本瀨戶內海青海苔融合天然海鹽，清爽鮮美不油膩，每一口都散發自然甘美鮮味。
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 65 <small>/ 份</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="日式青海苔 搖搖薯條" data-price="65">
+              立即加點
+            </button>
+          </div>
+        </div>
+
+        <!-- Flavor 3 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">勁辣墨西哥</h3>
+              <p class="flavor-eng">Spicy Mexican Chili</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #FEE2E2; color: #DC2626;">
+              🌶️
+            </div>
+          </div>
+          <p class="flavor-desc">
+            煙燻哈拉佩紐辣椒配小茴香，香辣刺激、層次豐富，專為嗜辣族群量身打造的極致過癮！
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 65 <small>/ 份</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="勁辣墨西哥 搖搖薯條" data-price="65">
+              立即加點
+            </button>
+          </div>
+        </div>
+
+        <!-- Flavor 4 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">蒜香黑胡椒</h3>
+              <p class="flavor-eng">Garlic & Black Pepper</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #F3F4F6; color: #374151;">
+              🧄
+            </div>
+          </div>
+          <p class="flavor-desc">
+            低溫烘焙大蒜粉與粗粒現磨黑胡椒，香氣直衝腦門，搭配冰涼碳酸飲料最對味的下酒點心！
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 65 <small>/ 份</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="蒜香黑胡椒 搖搖薯條" data-price="65">
+              立即加點
+            </button>
+          </div>
+        </div>
+
+        <!-- Flavor 5 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">洋蔥酸奶</h3>
+              <p class="flavor-eng">Sour Cream & Onion</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #DBEAFE; color: #2563EB;">
+              🧅
+            </div>
+          </div>
+          <p class="flavor-desc">
+            開胃酸奶與焦香洋蔥甜香精華，微酸微甜一根接一根，讓人完全停不下來！
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 65 <small>/ 份</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="洋蔥酸奶 搖搖薯條" data-price="65">
+              立即加點
+            </button>
+          </div>
+        </div>
+
+        <!-- Flavor 6 -->
+        <div class="flavor-card">
+          <div class="flavor-top">
+            <div>
+              <h3 class="flavor-title">黑松露海鹽</h3>
+              <p class="flavor-eng">Truffle & Sea Salt</p>
+            </div>
+            <div class="flavor-icon-box" style="background-color: #FEF3C7; color: #1F2937;">
+              ✨
+            </div>
+          </div>
+          <p class="flavor-desc">
+            義大利夏季黑松露精粹研磨配純淨鹽之花，法式極品奢華，薯條界的頂級美味享受！
+          </p>
+          <div class="flavor-meta">
+            <div class="flavor-price">NT$ 80 <small>/ 份 (限定)</small></div>
+            <button class="btn btn-secondary order-quick-btn" data-item="黑松露海鹽 搖搖薯條" data-price="80">
+              立即加點
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.5 Story Section ==================== -->
+  <section class="story-section" id="story">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Potato Craftsmanship</span>
+        <h2>對馬鈴薯的 <span>極致堅持</span></h2>
+        <p>為什麼搖搖薯條特別酥脆多汁？從品種挑選到黃金雙溫油炸，每個細節都絕不妥協！</p>
+      </div>
+
+      <div class="story-grid">
+        <!-- 1. 100% 契作特選馬鈴薯 -->
+        <div class="story-card">
+          <div class="story-icon">🥔</div>
+          <h3>100% 契作特選馬鈴薯</h3>
+          <p>
+            高緯度產區、日夜溫差大、土質肥沃，飽滿澱粉質炸出極致鬆軟綿密。
+          </p>
+        </div>
+
+        <!-- 2. 雙溫階梯式油炸工藝 -->
+        <div class="story-card">
+          <div class="story-icon">🔥</div>
+          <h3>雙溫階梯式油炸工藝</h3>
+          <p>
+            首段低溫熟化鎖水、二段 180°C 極速逼油上色，外衣薄脆如琉璃。
+          </p>
+        </div>
+
+        <!-- 3 & 4. 影片崁入 (YouTube EGxirilVP48) -->
+        <div class="story-card story-card-video">
+          <div class="story-icon">🎬</div>
+          <h3>影片崁入</h3>
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Dvv2WHXMYlM" title="搖搖薯條 精彩宣傳影片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <a class="story-video-link" href="https://youtu.be/Dvv2WHXMYlM" target="_blank" rel="noopener noreferrer">
+            🔗 觀看 YouTube 官方影片
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.6 Combos Section ==================== -->
+  <section class="combos-section" id="combos">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Best Value Combos</span>
+        <h2>超值狂歡 <span>美味套餐</span></h2>
+        <p>獨享痛快吃、朋友狂歡分享！搭配特調飲品與酥脆炸物，美味享受翻倍！</p>
+      </div>
+
+      <div class="combos-grid">
+        <!-- Combo 1 -->
+        <div class="combo-card">
+          <div class="combo-header">
+            <h3 class="combo-title">獨享爽搖餐</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">一人追劇必備</p>
+          </div>
+          <div class="combo-price-wrap">
+            <div class="combo-price">NT$ 99</div>
+            <div class="combo-old-price">NT$ 125</div>
+          </div>
+          <ul class="combo-items">
+            <li>大份搖搖薯條 ×1</li>
+            <li>檸檬氣泡飲/可樂 ×1</li>
+            <li>黃金鱈魚塊 ×2</li>
+          </ul>
+          <button class="btn btn-secondary order-quick-btn" data-item="獨享爽搖餐" data-price="99" style="width: 100%;">
+            點選獨享餐
+          </button>
+        </div>
+
+        <!-- Combo 2 (Popular) -->
+        <div class="combo-card popular">
+          <div class="popular-tag">🔥 人氣 TOP 1</div>
+          <div class="combo-header">
+            <h3 class="combo-title">雙人狂搖分享盒</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">雙倍美味一次享受兩種粉</p>
+          </div>
+          <div class="combo-price-wrap">
+            <div class="combo-price">NT$ 199</div>
+            <div class="combo-old-price">NT$ 250</div>
+          </div>
+          <ul class="combo-items">
+            <li>特大搖搖薯條 ×2</li>
+            <li>香脆雞柳條 ×4</li>
+            <li>沁涼氣泡飲 ×2</li>
+            <li>特調塔塔醬 ×1</li>
+          </ul>
+          <button class="btn btn-primary order-quick-btn" data-item="雙人狂搖分享盒" data-price="199" style="width: 100%;">
+            點選雙人盒
+          </button>
+        </div>
+
+        <!-- Combo 3 -->
+        <div class="combo-card">
+          <div class="combo-header">
+            <h3 class="combo-title">派對搖搖巨霸桶</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">4–5人聚會慶生首選</p>
+          </div>
+          <div class="combo-price-wrap">
+            <div class="combo-price">NT$ 399</div>
+            <div class="combo-old-price">NT$ 480</div>
+          </div>
+          <ul class="combo-items">
+            <li>家庭號巨霸薯條桶</li>
+            <li>任選 4 款風味粉</li>
+            <li>香酥洋蔥圈 ×1</li>
+            <li>1.25L 汽水 ×1</li>
+          </ul>
+          <button class="btn btn-secondary order-quick-btn" data-item="派對搖搖巨霸桶" data-price="399" style="width: 100%;">
+            點選派對桶
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.7 Reviews Section ==================== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title">Foodie Testimonials</span>
+        <h2>薯友真實 <span>狂熱好評</span></h2>
+        <p>萬人熱烈見證！聽聽重度薯條控們吃完後的一致讚賞！</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            「本來以為只是普通加味粉，結果一搖完那個香氣爆炸！起司味濃郁到每一根都想舔乾淨，外酥內軟完全不油膩，這絕對是我吃過最厲害的薯條！」
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">陳</div>
+            <div class="reviewer-info">
+              <h4>陳小姐（美食部落客）</h4>
+              <span>台北・回購超過 15 次</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            「強推勁辣墨西哥口味！辣得很過癮，配上波浪切法薯條，每一道波紋都卡滿滿的調味粉，週末配啤酒根本人生最大享受！」
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">林</div>
+            <div class="reviewer-info">
+              <h4>林先生（軟體工程師）</h4>
+              <span>新竹・辦公室下午茶常客</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            「專利搖搖袋太方便了，自己動手搖很有儀式感。日式青海苔小孩超愛吃，放冷了竟然還維持酥脆感，太不可思議了！」
+          </p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">張</div>
+            <div class="reviewer-info">
+              <h4>張媽媽（全職家管）</h4>
+              <span>台中・家庭派對指定點心</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. 地址動作：門市體驗試吃據點 -->
+      <div class="reviews-location-card">
+        <div class="location-icon">📍</div>
+        <div class="location-details">
+          <h4>實體門市美味體驗・現搖現吃熱騰騰出爐</h4>
+          <p>
+            歡迎親臨門市品嚐剛出爐的酥脆美味！門市地址：
+            <a href="https://www.google.com/maps/search/?api=1&query=僑光科技大學" target="_blank" rel="noopener noreferrer" class="map-link">
+              台中市西屯區僑光路 100 號
+            </a>
+            （點擊連結至 Google Maps 查看地圖導航 🗺️）
+          </p>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&query=僑光科技大學" target="_blank" rel="noopener noreferrer" class="btn btn-secondary location-btn">
+          <span>🗺️</span> 前往 Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5.8 CTA Banner ==================== -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>現在就來搖一包！滿足你的酥脆渴望</h2>
+      <p>現點現炸金黃酥脆，全台門市熱烈供應中，亦支援各大外送平台快速送達！</p>
+      <button class="btn" id="ctaOrderBtn">
+        <span>🚀</span> 立即線上點餐・專屬美味出爐
+      </button>
+    </div>
+  </section>
+
+  <!-- ==================== 5.9 Shopping Cart Drawer ==================== -->
+  <div class="cart-drawer-overlay" id="cartOverlay">
+    <div class="cart-drawer" role="dialog" aria-modal="true" aria-label="購物車清單">
+      <div class="cart-header">
+        <h3><span>🛒</span> 您的點餐清單</h3>
+        <button class="cart-close-btn" id="closeCartBtn" aria-label="關閉清單">&times;</button>
+      </div>
+      <div class="cart-body" id="cartItemsList">
+        <div class="cart-empty-state">
+          <span class="icon">🍟</span>
+          <p>購物清單目前是空的唷！</p>
+          <p style="font-size: 0.85rem; margin-top: 6px;">快去挑選喜愛的薯條與搖搖粉吧！</p>
+        </div>
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total-row">
+          <span>總計金額</span>
+          <span class="total-amount" id="cartTotalPrice">NT$ 0</span>
+        </div>
+        <button class="btn btn-primary" id="checkoutBtn" style="width: 100%; border-radius: var(--radius-sm); font-size: 1.05rem;">
+          確認送出訂單
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== 5.10 Footer ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <!-- 1. 品牌簡介 -->
+      <div class="footer-brand">
+        <div class="brand-title">🍟 搖搖薯條</div>
+        <p>
+          專注於將最純粹的頂級馬鈴薯，化為令人驚豔的酥脆搖搖體驗。金黃酥脆、香濃入魂，為每一位薯友帶來極致歡樂與美味！
+        </p>
+      </div>
+
+      <!-- 2. 快速導覽 -->
+      <div class="footer-col">
+        <h4>快速導覽</h4>
+        <ul>
+          <li><a href="#shaker">線上搖搖實驗室</a></li>
+          <li><a href="#flavors">經典招牌風味粉</a></li>
+          <li><a href="#story">馬鈴薯製程工藝</a></li>
+          <li><a href="#combos">熱門特惠套餐</a></li>
+        </ul>
+      </div>
+
+      <!-- 3. 門市資訊 -->
+      <div class="footer-col">
+        <h4>門市資訊與服務</h4>
+        <ul>
+          <li>📍 總店：<a href="https://www.google.com/maps/search/?api=1&query=僑光科技大學" target="_blank" rel="noopener noreferrer" class="footer-map-link">台中市西屯區僑光路 100 號</a></li>
+          <li>⏰ 營業時間：週一至週日 11:00 - 22:00</li>
+          <li>📞 訂餐專線：(02) 2345-6789</li>
+          <li>📧 客服信箱：service@shakeshakefries.tw</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 搖搖薯條 SHAKE SHAKE FRIES. All Rights Reserved.</p>
+      <p style="opacity: 0.7; font-size: 0.8rem;">課程作業專用：學生 11525210 蔡榆塏 製作</p>
+    </div>
+  </footer>
+
+  <!-- ==================== 6. JavaScript Interactive Engine ==================== -->
   <script>
-    const toggle=document.querySelector('.menu-toggle'), links=document.querySelector('.nav-links');
-    function closeMenu(){links.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','開啟導覽選單');toggle.textContent='☰'}
-    toggle.addEventListener('click',()=>{const open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'關閉導覽選單':'開啟導覽選單');toggle.textContent=open?'×':'☰'});
-    document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',closeMenu));
-    const toast=document.querySelector('#toast'); let toastTimer;
-    function showToast(message){clearTimeout(toastTimer);toast.textContent=message;toast.classList.add('show');toastTimer=setTimeout(()=>toast.classList.remove('show'),2600)}
-    document.querySelectorAll('[data-coffee]').forEach(button=>button.addEventListener('click',()=>showToast(`已將「${button.dataset.coffee}」加入你的收藏。`)));
-    document.querySelector('#subscribeForm').addEventListener('submit',event=>{event.preventDefault();event.currentTarget.reset();showToast('謝謝訂閱，下一封晴朗的風味通信即將寄出。')});
-    const revealItems=document.querySelectorAll('.reveal'), reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if(reduced||!('IntersectionObserver' in window)){revealItems.forEach(el=>el.classList.add('visible'))}else{const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});revealItems.forEach(el=>observer.observe(el))}
+    document.addEventListener('DOMContentLoaded', () => {
+      // ---------------- 6. 核心狀態變數 ----------------
+      let cart = [];
+      let currentCut = '細脆黃金薯';
+      let currentFlavor = '香濃黃金起司';
+      let currentFlavorEmoji = '🧀';
+
+      const cartCountEl = document.getElementById('cartCount');
+      const cartOverlay = document.getElementById('cartOverlay');
+      const openCartBtn = document.getElementById('openCartBtn');
+      const closeCartBtn = document.getElementById('closeCartBtn');
+      const cartItemsList = document.getElementById('cartItemsList');
+      const cartTotalPrice = document.getElementById('cartTotalPrice');
+      const checkoutBtn = document.getElementById('checkoutBtn');
+
+      // ---------------- 5.1 & 7. Mobile Navigation Toggle ----------------
+      const mobileToggle = document.getElementById('mobileToggle');
+      const navMenu = document.getElementById('navMenu');
+      if (mobileToggle && navMenu) {
+        mobileToggle.addEventListener('click', () => {
+          navMenu.classList.toggle('open');
+          const isOpen = navMenu.classList.contains('open');
+          mobileToggle.setAttribute('aria-expanded', isOpen);
+          mobileToggle.textContent = isOpen ? '✕' : '☰';
+        });
+
+        navMenu.querySelectorAll('.nav-link').forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('open');
+            mobileToggle.setAttribute('aria-expanded', 'false');
+            mobileToggle.textContent = '☰';
+          });
+        });
+      }
+
+      // ---------------- 5.3 & 6.2 搖搖實驗室互動控制 ----------------
+      const cutOptions = document.querySelectorAll('#cutOptions .option-chip');
+      const flavorOptions = document.querySelectorAll('#flavorOptions .option-chip');
+      const fryBag = document.getElementById('fryBag');
+      const bagFlavorLabel = document.getElementById('bagFlavorLabel');
+      const shakeBtn = document.getElementById('shakeBtn');
+      const shakeStatusText = document.getElementById('shakeStatusText');
+      const addShakerToCartBtn = document.getElementById('addShakerToCartBtn');
+      const shakerDisplayArea = document.getElementById('shakerDisplayArea');
+
+      // 切法選擇切換
+      cutOptions.forEach(btn => {
+        btn.addEventListener('click', () => {
+          cutOptions.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentCut = btn.dataset.cut;
+          updateShakerStatus(`已選擇切法：${currentCut}，快挑選調味粉狂搖！`);
+        });
+      });
+
+      // 風味粉選擇切換
+      flavorOptions.forEach(btn => {
+        btn.addEventListener('click', () => {
+          flavorOptions.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFlavor = btn.dataset.flavor;
+          currentFlavorEmoji = btn.dataset.emoji;
+          bagFlavorLabel.textContent = `${currentFlavorEmoji} ${currentFlavor}`;
+          updateShakerStatus(`已挑選風味：${currentFlavor}，點擊下方開始搖！`);
+        });
+      });
+
+      function updateShakerStatus(text) {
+        shakeStatusText.textContent = text;
+      }
+
+      // 6.1 音效合成演算法 (Web Audio API: White Noise Buffer + Bandpass Filter)
+      function playShakeSound() {
+        try {
+          const AudioCtx = window.AudioContext || window.webkitAudioContext;
+          if (!AudioCtx) return;
+          const ctx = new AudioCtx();
+
+          const bufferSize = ctx.sampleRate * 0.4;
+          const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) {
+            data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.3));
+          }
+
+          const noise = ctx.createBufferSource();
+          noise.buffer = buffer;
+
+          const filter = ctx.createBiquadFilter();
+          filter.type = 'bandpass';
+          filter.frequency.value = 1800;
+          filter.Q.value = 3;
+
+          const gain = ctx.createGain();
+          gain.gain.setValueAtTime(0.3, ctx.currentTime);
+          gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.38);
+
+          noise.connect(filter);
+          filter.connect(gain);
+          gain.connect(ctx.destination);
+
+          noise.start();
+        } catch (e) {
+          console.log('Web Audio effect not supported or blocked:', e);
+        }
+      }
+
+      // 6.2 裹粉粒子噴發引擎 (隨機極座標三角函數位移，850ms 後移除)
+      function createSeasoningParticles() {
+        const colors = ['#F59E0B', '#EF4444', '#10B981', '#FBBF24', '#78350F'];
+        const rect = fryBag.getBoundingClientRect();
+        const displayRect = shakerDisplayArea.getBoundingClientRect();
+
+        for (let i = 0; i < 24; i++) {
+          const particle = document.createElement('div');
+          particle.className = 'particle';
+          const size = Math.random() * 8 + 4;
+          particle.style.width = `${size}px`;
+          particle.style.height = `${size}px`;
+          particle.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+          particle.style.left = `${(rect.left - displayRect.left) + rect.width / 2}px`;
+          particle.style.top = `${(rect.top - displayRect.top) + rect.height / 2}px`;
+
+          const angle = Math.random() * Math.PI * 2;
+          const dist = Math.random() * 120 + 40;
+          particle.style.setProperty('--tx', `${Math.cos(angle) * dist}px`);
+          particle.style.setProperty('--ty', `${Math.sin(angle) * dist}px`);
+
+          shakerDisplayArea.appendChild(particle);
+
+          setTimeout(() => {
+            particle.remove();
+          }, 850);
+        }
+      }
+
+      // 搖晃執行按鈕邏輯
+      let isShaking = false;
+      shakeBtn.addEventListener('click', () => {
+        if (isShaking) return;
+        isShaking = true;
+        fryBag.classList.add('shaking');
+        updateShakerStatus(`🎉 狂暴搖晃中！${currentFlavor}粉均勻包覆中...`);
+        addShakerToCartBtn.style.display = 'none';
+
+        playShakeSound();
+        const soundInterval = setInterval(playShakeSound, 160);
+        const particleInterval = setInterval(createSeasoningParticles, 120);
+
+        setTimeout(() => {
+          clearInterval(soundInterval);
+          clearInterval(particleInterval);
+          fryBag.classList.remove('shaking');
+          isShaking = false;
+          updateShakerStatus(`✨ 搖好了！${currentCut} × ${currentFlavor} 完美均勻裹粉，金黃酥脆！`);
+          addShakerToCartBtn.style.display = 'inline-flex';
+          addShakerToCartBtn.textContent = `＋ 立即加購這包「${currentFlavor}」($65)`;
+        }, 1600);
+      });
+
+      // 搖搖自訂加購
+      addShakerToCartBtn.addEventListener('click', () => {
+        addToCart(`搖搖薯條（${currentCut}・${currentFlavor}）`, 65);
+        addShakerToCartBtn.textContent = '✓ 已加入購物車！';
+        setTimeout(() => {
+          openCartDrawer();
+        }, 400);
+      });
+
+      // ---------------- 5.4 & 5.6 快速訂餐按鈕 ----------------
+      document.querySelectorAll('.order-quick-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const itemName = btn.dataset.item;
+          const price = parseInt(btn.dataset.price, 10);
+          addToCart(itemName, price);
+          openCartDrawer();
+        });
+      });
+
+      // 5.8 行動呼籲 CTA 按鈕
+      const ctaOrderBtn = document.getElementById('ctaOrderBtn');
+      if (ctaOrderBtn) {
+        ctaOrderBtn.addEventListener('click', () => {
+          const combosSec = document.getElementById('combos');
+          combosSec.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
+
+      // ---------------- 6.3 購物車管理邏輯 ----------------
+      function addToCart(title, price) {
+        const existing = cart.find(item => item.title === title);
+        if (existing) {
+          existing.qty += 1;
+        } else {
+          cart.push({ title, price, qty: 1 });
+        }
+        updateCartUI();
+      }
+
+      function updateCartUI() {
+        const totalCount = cart.reduce((acc, cur) => acc + cur.qty, 0);
+        cartCountEl.textContent = totalCount;
+
+        if (cart.length === 0) {
+          cartItemsList.innerHTML = `
+            <div class="cart-empty-state">
+              <span class="icon">🍟</span>
+              <p>購物清單目前是空的唷！</p>
+              <p style="font-size: 0.85rem; margin-top: 6px;">快去挑選喜愛的薯條與搖搖粉吧！</p>
+            </div>
+          `;
+          cartTotalPrice.textContent = 'NT$ 0';
+          return;
+        }
+
+        let total = 0;
+        let html = '';
+        cart.forEach((item, index) => {
+          const subtotal = item.price * item.qty;
+          total += subtotal;
+          html += `
+            <div class="cart-item">
+              <div class="cart-item-info">
+                <h4>${item.title}</h4>
+                <span>NT$ ${item.price} × ${item.qty}</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div class="cart-item-price">NT$ ${subtotal}</div>
+                <button onclick="removeItem(${index})" aria-label="刪除此項目" style="color: #9CA3AF; font-size: 1.1rem; padding: 4px; cursor: pointer;">✕</button>
+              </div>
+            </div>
+          `;
+        });
+
+        cartItemsList.innerHTML = html;
+        cartTotalPrice.textContent = `NT$ ${total}`;
+      }
+
+      window.removeItem = function(index) {
+        cart.splice(index, 1);
+        updateCartUI();
+      };
+
+      function openCartDrawer() {
+        cartOverlay.classList.add('open');
+      }
+
+      function closeCartDrawer() {
+        cartOverlay.classList.remove('open');
+      }
+
+      openCartBtn.addEventListener('click', openCartDrawer);
+      closeCartBtn.addEventListener('click', closeCartDrawer);
+      cartOverlay.addEventListener('click', (e) => {
+        if (e.target === cartOverlay) {
+          closeCartDrawer();
+        }
+      });
+
+      checkoutBtn.addEventListener('click', () => {
+        if (cart.length === 0) {
+          alert('您的購物車還是空的，快挑選幾包美味搖搖薯條吧！🍟');
+          return;
+        }
+        alert('🎉 感謝您的點餐！廚房已接獲訂單，熱騰騰的現炸搖搖薯條即將出爐！');
+        cart = [];
+        updateCartUI();
+        closeCartDrawer();
+      });
+
+      // ---------------- 5.1 導覽列滾動陰影監聽 ----------------
+      const navbar = document.getElementById('navbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+        } else {
+          navbar.style.boxShadow = 'none';
+        }
+      });
+    });
   </script>
 </body>
 </html>
